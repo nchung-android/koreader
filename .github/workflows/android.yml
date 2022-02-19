@@ -31,7 +31,7 @@ jobs:
           ./kodev release android
 
       - name: Uploading artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: koreader-android
-          path: '*.7z'
+          path: '*.apk'
